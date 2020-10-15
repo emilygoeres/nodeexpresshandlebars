@@ -103,5 +103,5 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (hamburger.js).
 module.exports = orm;

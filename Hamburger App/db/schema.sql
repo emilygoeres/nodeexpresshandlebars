@@ -1,9 +1,9 @@
 ### Schema
 
-CREATE DATABASE cat_db;
-USE cat_db;
+CREATE DATABASE hamburger_db;
+USE hamburger_db;
 
-CREATE TABLE cats
+CREATE TABLE hamburgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,

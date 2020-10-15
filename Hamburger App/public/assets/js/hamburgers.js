@@ -9,7 +9,7 @@ $(function() {
     };
 
     // Send the PUT request.
-    $.ajax("/api/cats/" + id, {
+    $.ajax("/api/hamburgers/" + id, {
       type: "PUT",
       data: newSleepState
     }).then(
@@ -31,27 +31,27 @@ $(function() {
     };
 
     // Send the POST request.
-    $.ajax("/api/cats", {
+    $.ajax("/api/hamburgers", {
       type: "POST",
-      data: newCat
+      data: newHamburger
     }).then(
       function() {
-        console.log("created new cat");
+        console.log("created new hamburger");
         // Reload the page to get the updated list
         location.reload();
       }
     );
   });
 
-  $(".delete-cat").on("click", function(event) {
+  $(".delete-hamburger").on("click", function(event) {
     var id = $(this).data("id");
 
     // Send the DELETE request.
-    $.ajax("/api/cats/" + id, {
+    $.ajax("/api/hamburgers/" + id, {
       type: "DELETE"
     }).then(
       function() {
-        console.log("deleted cat", id);
+        console.log("deleted hamburger", id);
         // Reload the page to get the updated list
         location.reload();
       }

@@ -5,19 +5,18 @@ Project Description: As a user, you should be able to add a new burger and the n
 
 Installations: MySQL, Node, Express, Handlebars and a homemade ORM
 
-Steps to complete Employee Tracker:
-1. Drop employee tracker if it already exists
-2. Created employeetracker to run on local db
-3. Use the DB employeeTracker_db for all the rest of the script
-4. Created 3 tables: Department, role, employee
-5. Created the statements to seleect certain info from different tables and to combine the info
-6. create the connection information for the sql database
-7. connect to the mysql server and sql database
-8. Created a function for when the user starts they can select what they would like to do
-9. Created functions to add a department, add a role, add an employee
-10. Created functions that will display all of the departments, roles and employees
-11. Added an update employee function
-12. Added video link and images to README
+Steps to complete Node Express Handlebars Application:
+1. Created a config folder with connection.js and orm.js
+    -Connection.js: Set up the mySQL connection along with the orm connection
+    -orm.js: Helper function to convert object key/value pairs to SQL syntax
+2. Created a hamburger controller that created all of the routes for the application
+3. Schema: created a table for the hamburger info
+4. Import the ORM to create functions that will interact with the database
+5. Style sheet: Styled the webpage for app
+6. Attached handlers, created a PUT, POST and DELETE request for hamburgers
+7. Set handlers, imported routes, start server, log server side when server has started
+8. Added images and heroku link to readme
+
 
 
 ![Hamburger]()
@@ -25,7 +24,7 @@ Steps to complete Employee Tracker:
 ![Hamburger]()
 
 
-Link to Deployed App: https://drive.google.com/file/d/1gQHZTN5A1_PolQI8K_0b-wE2e597M_qI/view
+Link to Deployed App: 
 
 ##### Emily Goeres, 
 ### Univeristy of Washington

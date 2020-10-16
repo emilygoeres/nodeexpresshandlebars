@@ -1,6 +1,6 @@
 <h1>Emily's Hamburgers!</h1>
 
-<h2>Hamburgers!</h2>
+<h2>DEVOUR!</h2>
 
 <ul>
   {{#each hamburgers}}
@@ -10,13 +10,12 @@
   {{/each}}
 </ul>
 
-<h2>Hamburgers!</h2>
+<h2>ORDER READY!</h2>
 
 <ul>
   {{#each hamburgers}}
     {{#if devour}}
-      {{> <hamburgers>
-      <hamburger1></hamburger1>-block devour=false}}
+      {{> hamburgers/hamburger1-block devour=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -32,7 +31,7 @@
   <div class="form-group">
     <label for="devour">devour?</label><br>
     <input type="radio" name="devour" value="1" checked> devour!<br>
-    <input type="radio" name="devour" value="0"> Awake
+    <input type="radio" name="devour" value="0"> Order Waiting
   </div>
 
   <button type="submit">Add Hamburger</button>

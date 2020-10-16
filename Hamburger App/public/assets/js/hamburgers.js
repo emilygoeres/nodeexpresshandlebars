@@ -4,7 +4,7 @@ $(function() {
     var id = $(this).data("id");
 
     var data = {
-     devour: true
+     devour: false
     };
 
     // Send the PUT request.

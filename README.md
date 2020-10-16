@@ -23,6 +23,8 @@ Steps to complete Node Express Handlebars Application:
 ![Hamburger](https://github.com/emilygoeres/nodeexpresshandlebars/blob/main/hamburger1.PNG)
 
 Link to Deployed App: https://drive.google.com/file/d/1jCAHkC4gITXp9IM2My9YguLs-xi6i6Ot/view
+
+<!-- Heroku link -->
 Heroku Link: 
 
 ##### Emily Goeres, 

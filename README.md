@@ -25,7 +25,7 @@ Steps to complete Node Express Handlebars Application:
 Link to Deployed App: https://drive.google.com/file/d/1jCAHkC4gITXp9IM2My9YguLs-xi6i6Ot/view
 
 <!-- Heroku link -->
-Heroku Link: 
+Heroku Link: https://rocky-retreat-25414.herokuapp.com/
 
 ##### Emily Goeres, 
 ### Univeristy of Washington
